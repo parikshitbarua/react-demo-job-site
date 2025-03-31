@@ -6,7 +6,9 @@ import NotFoundPage from "./pages/NotFoundPage.jsx";
 import JobPage, { jobLoader } from "./pages/JobPage.jsx";
 import AddJobPage from "./pages/AddJobPage.jsx";
 import EditJobPage from "./pages/EditJobPage.jsx";
-import { addJobsService, deleteJobsService, updateJobsService } from "./services/jobsService.jsx"
+import { addJobsService, deleteJobsService, updateJobsService } from "./services/jobsService.jsx";
+
+// import { addJobsService } from "./services/jobsService.jsx";
 
 const App = () => {
     const router = createBrowserRouter(
